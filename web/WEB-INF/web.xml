@@ -9,96 +9,92 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
   <servlet>
-  	<servlet-name>loginServlet</servlet-name>
-  	<servlet-class>com.web.loginServlet</servlet-class>
-  </servlet> 
-  <servlet-mapping>
-  	<servlet-name>loginServlet</servlet-name>
-  	<url-pattern>/loginServlet</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-  	<servlet-name>userManageServlet</servlet-name>
-  	<servlet-class>com.web.userManageServlet</servlet-class>
-  </servlet> 
-  <servlet-mapping>
-  	<servlet-name>userManageServlet</servlet-name>
-  	<url-pattern>/userManageServlet</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-  <servlet-name>userModifyServlet</servlet-name>
-  <servlet-class>com.web.userModifyServlet</servlet-class>
-  </servlet>
-<servlet-mapping>
-<servlet-name>userModifyServlet</servlet-name>
-<url-pattern>/userModifyServlet</url-pattern>
-</servlet-mapping>
-
-  <servlet>
-  <servlet-name>userRegisterServlet</servlet-name>
-  <servlet-class>com.web.userRegisterServlet</servlet-class>
-  </servlet>
-<servlet-mapping>
-<servlet-name>userRegisterServlet</servlet-name>
-<url-pattern>/userRegisterServlet</url-pattern>
-</servlet-mapping>
-
-  <servlet>
-  <servlet-name>shoppingCartservlet</servlet-name>
-  <servlet-class>com.web.shoppingCartservlet</servlet-class>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.web.loginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>shoppingCartservlet</servlet-name>
-  <url-pattern>/shoppingCartservlet</url-pattern>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
   </servlet-mapping>
-  
   <servlet>
-  <servlet-name>orderConfirmServlet</servlet-name>
-  <servlet-class>com.web.orderConfirmServlet</servlet-class>
+    <servlet-name>userManageServlet</servlet-name>
+    <servlet-class>com.web.userManageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>orderConfirmServlet</servlet-name>
-  <url-pattern>/orderConfirmServlet</url-pattern>
+    <servlet-name>userManageServlet</servlet-name>
+    <url-pattern>/userManageServlet</url-pattern>
   </servlet-mapping>
-  
-    <servlet>
-  	<servlet-name>OrderListServlet</servlet-name>
-  	<servlet-class>com.web.OrderListServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>OrderListServlet</servlet-name>
-  	<url-pattern>/OrderListServlet</url-pattern>
-  </servlet-mapping>
-  
-  
-      <servlet>
-  	<servlet-name>OrderServlet</servlet-name>
-  	<servlet-class>com.web.OrderServlet</servlet-class>
-  </servlet> 
-  <servlet-mapping>
-  	<servlet-name>OrderServlet</servlet-name>
-  	<url-pattern>/OrderServlet</url-pattern>
-  </servlet-mapping>
-  
-    <servlet>
-  	<servlet-name>productDetailServlet</servlet-name>
-  	<servlet-class>com.web.productDetailServlet</servlet-class>	
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>productDetailServlet</servlet-name>
-  	<url-pattern>/productDetailServlet</url-pattern>
-  </servlet-mapping>
-  
   <servlet>
-  	<servlet-name>productListServlet</servlet-name>
-  	<servlet-class>com.web.productListServlet</servlet-class>
-  </servlet> 
-   <servlet-mapping>
-  	<servlet-name>productListServlet</servlet-name>
-  	<url-pattern>/productListServlet</url-pattern>
+    <servlet-name>userModifyServlet</servlet-name>
+    <servlet-class>com.web.userModifyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userModifyServlet</servlet-name>
+    <url-pattern>/userModifyServlet</url-pattern>
   </servlet-mapping>
-
+  <servlet>
+    <servlet-name>userRegisterServlet</servlet-name>
+    <servlet-class>com.web.userRegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userRegisterServlet</servlet-name>
+    <url-pattern>/userRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>shoppingCartservlet</servlet-name>
+    <servlet-class>com.web.shoppingCartservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>shoppingCartservlet</servlet-name>
+    <url-pattern>/shoppingCartservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>orderConfirmServlet</servlet-name>
+    <servlet-class>com.web.orderConfirmServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>orderConfirmServlet</servlet-name>
+    <url-pattern>/orderConfirmServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>OrderListServlet</servlet-name>
+    <servlet-class>com.web.OrderListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderListServlet</servlet-name>
+    <url-pattern>/OrderListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.web.OrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>productDetailServlet</servlet-name>
+    <servlet-class>com.web.productDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productDetailServlet</servlet-name>
+    <url-pattern>/productDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>productListServlet</servlet-name>
+    <servlet-class>com.web.productListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productListServlet</servlet-name>
+    <url-pattern>/productListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ControllerServlet</servlet-name>
+    <servlet-class>com.web.controller.ControllerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControllerServlet</servlet-name>
+    <url-pattern>*.asp</url-pattern>
+  </servlet-mapping>
 </web-app>

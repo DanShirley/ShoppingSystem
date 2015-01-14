@@ -124,8 +124,8 @@ public class shoppingCartservlet extends HttpServlet{
 		out.println("					<b>￥59.0</b>");
 		out.println("				</td>");
 		out.println("				<td class=tablebody1 valign=\"middle\" align=\"center\" width=\"24%\">");
-		out.println("					<input type=\"button\" value=\"取消\" size=\"1\">");
-		out.println("					<input type=\"button\" value=\"保存修改\" size=\"2\">");
+		out.println("					<input type=\"button\"  value=\"取消\" size=\"1\" onclick=\"javascript:window.location='./actioncancel.asp';\">");
+		out.println("					<input type=\"button\" value=\"保存修改\" size=\"2\" onclick=\"javascript:window.location='./actionsave.asp';\">");
 		out.println("				</td>");
 		out.println("			</tr>");
 		out.println("			<tr>");
@@ -164,9 +164,9 @@ public class shoppingCartservlet extends HttpServlet{
 		out.println("			<tr>");
 		out.println("				<td class=tablebody2 valign=\"middle\" align=\"center\" width=\"8%\" colspan=\"6\">");
 		out.println("				<form>");
-		out.println("					<input type=\"button\" value=\"提交订单\" size=\"1\" onclick=\"javascript:window.location='./orderConfirmServlet';\">");
-		out.println("					<input type=\"button\" value=\"继续购物\" size=\"2\" onclick=\"javascript:window.location='./productListServlet';\">");
-		out.println("					<input type=\"button\" value=\"清空购物车\" size=\"2\" onclick=\"javascript:window.location='./productListServlet';\">");
+		out.println("					<input type=\"button\" value=\"提交订单\" size=\"1\" onclick=\"javascript:window.location='./actionorderConfirmServlet.asp';\">");
+		out.println("					<input type=\"button\" value=\"继续购物\" size=\"2\" onclick=\"javascript:window.location='./actionproductListServlet.asp';\">");
+		out.println("					<input type=\"button\" value=\"清空购物车\" size=\"2\" onclick=\"javascript:window.location='./actionproductListServlet.asp';\">");
 		out.println("				</form>");
 		out.println("				</td>");
 		out.println("			</tr>");
@@ -195,6 +195,7 @@ public class shoppingCartservlet extends HttpServlet{
 		out.println("<!-- Footer End -->");
 		out.println("	</body>");
 		out.println("</html>");
+		System.out.println("*********** in shoppingCart*****************");
 		out.close();
 	}
 
